@@ -1,0 +1,100 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    padding:120px;
+    position:relative;
+}
+.nav {
+    background-color:#222;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    z-index:1000;
+}
+.nav h1 {
+    text-align:center;
+    font-weight:700;
+    color:#f9f9f9;
+    line-height:50px;
+}
+.nav h1 span {
+    color:crimson;
+}
+
+.content {
+    background-color:#DDD;
+    padding:20px;
+    margin:20px;
+}
+.info {
+    background-color:#f9f9f9;
+    padding:10px;
+    -webkit-box-shadow:0 0 10px #333;
+    box-shadow:0 0 25px #333;
+    line-height:38px;
+    height:60px;
+}
+.info a {
+    text-decoration:none;
+}
+.brackets p {
+    margin-bottom:40px;
+}
+.brackets a {
+    padding:20px;
+    background-color:crimson;
+    text-decoration:none;
+    color:#FFF;
+    font-weight:bold;
+    border:1px solid crimson;
+    -webkit-transition:all .27s ease-in-out;
+    transition:all .27s ease-in-out;
+}
+.brackets a:hover {
+    background-color:#FFF;
+    color:crimson;
+    
+}
+.again {
+    margin:40px auto 0;
+}
+.instructions h2 {
+    margin:50px auto;
+}
+.half {
+    -webkit-box-shadow:0 0 10px #333;
+    box-shadow:0 0 10px #333;
+    padding:20px 5px;
+    margin-bottom:20px;
+}
+.instructions .note {
+    background-color:#ddd;
+    padding:10px;
+    margin:20px;
+}
+.half ol li {
+    font-weight:500;
+    margin:10px auto;
+}
+.half ol img {
+    margin:10px auto;
+}
+.footer {
+    background-color:#222;
+    color:#FFF;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:40px;
+    text-align:center;
+    font-weight:bold;
+}
+.features-list {
+    list-style: none;
+    padding:10px 0;
+}
