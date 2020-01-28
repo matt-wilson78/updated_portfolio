@@ -98,3 +98,8 @@ body {
     list-style: none;
     padding:10px 0;
 }
+
+.portfolio-img {
+    height: 80px;
+    width: 80px;
+}
